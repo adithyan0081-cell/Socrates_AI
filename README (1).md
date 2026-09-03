@@ -79,21 +79,6 @@ python3 -m http.server 8000
 
 **Optional AI mode:** on the landing screen, expand *"AI mode (optional)"* and paste an Anthropic API key (`sk-ant-...`). Questions then get generated live — more specific, more unhinged. The app is fully functional without it.
 
-### Project Documentation
-For Software:
-
-# Screenshots (Add at least 3)
-![Screenshot1](Add screenshot 1 here with proper name)
-*Boot sequence — "Preparing unnecessary questions…" — with the hologram mascot materialising in standby before you're allowed into the lab.*
-
-![Screenshot2](Add screenshot 2 here with proper name)
-*The landing screen. Type any task or tap a preset chip. Note the footer: "Zero team-ukal vishwasikkunnu · Innu vare oru task-um cheythittilla · Uptime 100% · Output 0%".*
-
-![Screenshot3](Add screenshot 3 here with proper name)
-*A tier-3 session in progress. Questions asked: 09. Task completion: 0%. Absurdity level: Unnecessary. The accent colour has drifted to amber and the mascot has gone visibly suspicious.*
-
-![Screenshot4](Add screenshot 4 here with proper name)
-*The final report — "System status: successfully did nothing" — with the full transcript of everything you clarified and nothing you received.*
 
 # Diagrams
 ```mermaid
@@ -133,8 +118,6 @@ N/A — no hardware involved in this project.
 
 *Walks through a full session: entering "Best friend-inu oru birthday wish ezhuthu", watching the questions escalate from "what vibe do you want" to "next year, will these same questions have to be asked again", and arriving at a beautifully formatted report containing no birthday wish.*
 
-# Additional Demos
-[Add any extra demo materials/links]
 
 ## Team Contributions
 - **Adithyan S Nair:** Core question engine — the domain-scoring and recipient-detection regex tables, the context-aware question generators across all 9 packs, and the 4-tier escalation ladder with its no-repeat pool tracker. Built the optional Claude API integration: the system prompt that locks the model into Manglish and forbids it from ever completing the task, plus JSON validation, option padding, timeout handling, and the silent fallback to the offline engine.
